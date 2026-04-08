@@ -31,6 +31,31 @@ export default function Philosophy() {
           </p>
         </div>
 
+        {/* Market stats */}
+        <div className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div className="bg-blue-800/40 border border-blue-600 rounded-2xl p-5">
+            <p className="text-3xl font-bold text-white mb-1">80%</p>
+            <p className="text-xs text-blue-200 leading-relaxed">
+              dos viajantes já usam IA generativa para pesquisar e reservar viagens
+            </p>
+            <p className="text-xs text-blue-400 mt-3">Accenture / Engine, 2025</p>
+          </div>
+          <div className="bg-blue-800/40 border border-blue-600 rounded-2xl p-5">
+            <p className="text-3xl font-bold text-white mb-1">25%</p>
+            <p className="text-xs text-blue-200 leading-relaxed">
+              de ganho de eficiência nos tempos de reserva com IA integrada ao fluxo corporativo
+            </p>
+            <p className="text-xs text-blue-400 mt-3">CTM, 2025</p>
+          </div>
+          <div className="bg-blue-800/40 border border-blue-600 rounded-2xl p-5">
+            <p className="text-3xl font-bold text-white mb-1">45%</p>
+            <p className="text-xs text-blue-200 leading-relaxed">
+              do funding global em startups de viagem vai para IA — era 10% em 2023
+            </p>
+            <p className="text-xs text-blue-400 mt-3">McKinsey, 2025</p>
+          </div>
+        </div>
+
         {/* Flow comparison */}
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div className="bg-blue-800/50 border border-blue-600 rounded-2xl p-5">

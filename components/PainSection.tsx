@@ -1,18 +1,18 @@
 const stats = [
   {
-    number: "43%",
-    label: "das viagens corporativas são realizadas fora da política da empresa",
-    source: "GBTA, Global Business Travel Association",
+    number: "44%",
+    label: "dos viajantes corporativos nunca usam — ou usam apenas às vezes — as ferramentas de reserva designadas pela empresa",
+    source: "Navan, 2025",
   },
   {
-    number: "50 min",
-    label: "é o tempo médio que um colaborador gasta para reservar uma única viagem",
-    source: "SAP Concur Business Travel Report",
+    number: "2 em 3",
+    label: "viajantes admitem desviar da política corporativa mesmo sabendo que não deveriam",
+    source: "SAP Concur, 2024",
   },
   {
-    number: "1 em 3",
-    label: "viajantes corporativos relatam insatisfação com o processo de reserva",
-    source: "Skift Research / GBTA Traveler Sentiment Study",
+    number: "45%",
+    label: "já ignoraram a política de viagens da empresa para economizar tempo",
+    source: "WifiTalents, 2026",
   },
 ];
 
@@ -54,8 +54,11 @@ export default function PainSection() {
         <div className="max-w-3xl bg-white border border-gray-100 rounded-2xl p-8 shadow-sm">
           <p className="text-gray-700 leading-relaxed mb-4">
             O atrito não está na viagem. Está no que vem antes: pesquisar,
-            comparar, preencher, aprovar, reembolsar. Um fluxo inteiro que
-            consome tempo real de pessoas reais — toda vez.
+            comparar, preencher, aprovar — e no que vem depois: remarcar,
+            cancelar, reembolsar. Pesquisas mostram que cancelar ou remarcar
+            voos e hotéis é, de longe, o maior ponto de fricção relatado por
+            viajantes corporativos.{" "}
+            <span className="text-gray-400 text-xs">(Deloitte, 2024)</span>
           </p>
           <p className="text-gray-700 leading-relaxed">
             A Safira foi construída para eliminar exatamente esse fluxo.
